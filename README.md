@@ -1,22 +1,27 @@
-# Installation and Running Gulp Build
+# Установка и Запуск Gulp Сборки
+Этот проект представляет собой готовую Gulp сборку для веб-проектов.
 
-This project is a ready-made Gulp build for web projects.
+## Установка npm
+Для начала установите npm (Node Package Manager), если его еще нет на вашем компьютере. npm используется для управления зависимостями проекта. Вы можете установить npm, загрузив и установив Node.js.
 
-## Installing npm
+## Установка Пакетов
+Чтобы установить все пакеты скопируйте команду с packages.txt и вставте в терминал
 
-First, install npm (Node Package Manager) if you haven't already on your computer. npm is used to manage project dependencies. You can install npm by downloading and installing [Node.js](https://nodejs.org/).
+## Запуск Сборки
+После успешной установки всех зависимостей можно запустить сборку. Есть два режима сборки: разработки и документации.
 
-## Installing Packages
-
-To install all the packages, copy the command from `packages.txt` and paste it into the terminal.
-
-## Running the Build
-
-After successfully installing all dependencies, you can run the build. There are two build modes: development and documentation.
-
-### Development Mode
-
-Run the following command to start the build in development mode:
-
+### Режим Разработки
+Запустите следующую команду для запуска сборки в режиме разработки:
 ```bash
-gulp dev
+
+```
+Этот режим включает автоматическое отслеживание изменений в файлах и пересборку проекта при их изменении.
+
+### Режим Документации
+Запустите следующую команду для сборки документации:
+```bash
+gulp docs
+```
+Этот режим собирает проект для документации, включая оптимизацию изображений, минификацию CSS и JS файлов, а также преобразование HTML файлов.
+
+Следуйте этой инструкции, чтобы успешно установить и запустить вашу Gulp сборку. Помните, что перед запуском сборки убедитесь, что все зависимости установлены, и вы находитесь в корневой директории проекта.
