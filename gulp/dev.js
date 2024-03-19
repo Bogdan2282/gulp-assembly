@@ -96,7 +96,6 @@ gulp.task('js:dev', function(){
 gulp.task('server:dev', function(){
     return gulp.src('./build/')
     .pipe(server({
-        host: '192.168.1.139',
         livereload: true,
         open: true
     }))
