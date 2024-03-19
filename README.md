@@ -5,7 +5,7 @@ This proest is an off-the-shelf gulp build
 This project represents a ready-made Gulp build for web projects.
 
 ## Installing npm
-To start, install npm (Node Package Manager) if it is not already installed on your computer. npm is used for managing project dependencies. You can install npm by downloading and installing Node.js.
+To start, install npm (Node Package Manager) if it is not already installed on your computer. npm is used for managing project dependencies. You can install npm by downloading and installing [Node js](https://nodejs.org/).
 
 ## Installing Packages
 To install all the packages, copy the command from packages.txt and paste it into the terminal.
