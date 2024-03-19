@@ -1,3 +1,6 @@
+# gulp-assembly
+This proest is an off-the-shelf gulp build
+
 # Installation and Running Gulp Build
 This project represents a ready-made Gulp build for web projects.
 
