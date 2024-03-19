@@ -1,27 +1,27 @@
-# Установка и Запуск Gulp Сборки
-Этот проект представляет собой готовую Gulp сборку для веб-проектов.
+# Installation and Running Gulp Build
+This project represents a ready-made Gulp build for web projects.
 
-## Установка npm
-Для начала установите npm (Node Package Manager), если его еще нет на вашем компьютере. npm используется для управления зависимостями проекта. Вы можете установить npm, загрузив и установив Node.js.
+## Installing npm
+To start, install npm (Node Package Manager) if it is not already installed on your computer. npm is used for managing project dependencies. You can install npm by downloading and installing Node.js.
 
-## Установка Пакетов
-Чтобы установить все пакеты скопируйте команду с packages.txt и вставте в терминал
+## Installing Packages
+To install all the packages, copy the command from packages.txt and paste it into the terminal.
 
-## Запуск Сборки
-После успешной установки всех зависимостей можно запустить сборку. Есть два режима сборки: разработки и документации.
+## Running the Build
+After successfully installing all dependencies, you can run the build. There are two build modes: development and documentation.
 
-### Режим Разработки
-Запустите следующую команду для запуска сборки в режиме разработки:
+### Development Mode
+Run the following command to start the build in development mode:
 ```bash
-
+gulp dev
 ```
-Этот режим включает автоматическое отслеживание изменений в файлах и пересборку проекта при их изменении.
+This mode includes automatic monitoring of file changes and rebuilding the project upon any changes.
 
-### Режим Документации
-Запустите следующую команду для сборки документации:
+### Docs Mode
+Run the following command to build the documentation:
 ```bash
 gulp docs
 ```
-Этот режим собирает проект для документации, включая оптимизацию изображений, минификацию CSS и JS файлов, а также преобразование HTML файлов.
+This mode builds the project for documentation, including image optimization, CSS and JS minification, as well as HTML file transformation.
 
-Следуйте этой инструкции, чтобы успешно установить и запустить вашу Gulp сборку. Помните, что перед запуском сборки убедитесь, что все зависимости установлены, и вы находитесь в корневой директории проекта.
+Follow this instruction to successfully install and run your Gulp build. Remember, before running the build, ensure all dependencies are installed, and you are in the project's root directory.
